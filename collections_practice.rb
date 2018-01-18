@@ -36,5 +36,5 @@ def kesha_maker(array)
   array.each do |nam|
     nam[2] = "$"
     kesha << nam
-      
+  end
 end
