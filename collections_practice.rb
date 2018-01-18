@@ -46,3 +46,4 @@ def find_a(array)
       nuarray << nam
   end
 end
+end
