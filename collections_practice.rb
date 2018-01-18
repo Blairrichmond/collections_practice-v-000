@@ -48,11 +48,12 @@ def sum_array(array)
 end
 
 def add_s(array)
+  s =[]
   array.collect do |nam|
     if nam[1]
       return
     else
-      nam + "s"
+      s << nam + "s"
     end
   end
 end
