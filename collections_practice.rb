@@ -42,3 +42,8 @@ end
 def find_a(array)
   array.select {|nam| nam[0] == "a" || nam[0] == "A"}
 end
+
+def sum_array(array)
+  array.each do |num|
+    num + num
+end
