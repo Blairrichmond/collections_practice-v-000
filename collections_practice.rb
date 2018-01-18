@@ -42,7 +42,7 @@ end
 def find_a(array)
   nuarray =[]
   array.each do |nam|
-    if nam[0] == "a"
+    if nam[0] = "a"
       nuarray << nam
   end
 end
