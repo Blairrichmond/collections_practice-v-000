@@ -38,3 +38,7 @@ def kesha_maker(array)
     kesha << nam
   end
 end
+
+def find_a(array)
+  array.start_with?("a")
+end
