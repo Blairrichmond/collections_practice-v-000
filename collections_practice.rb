@@ -50,5 +50,5 @@ end
 def add_s(array)
   array[0] << "s"
    array.drop(2).each {|word| word << "s"}
-   array 
+   array
 end
