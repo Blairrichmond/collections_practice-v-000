@@ -48,12 +48,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  s =[]
-  array.collect do |nam|
-    if nam[1]
-      return
-    else
-      s << nam + "s"
-    end
-  end
+  array[0] << "s"
+   array.drop(2).each {|word| word << "s"}
+   array 
 end
