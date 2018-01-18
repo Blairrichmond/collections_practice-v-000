@@ -46,3 +46,13 @@ end
 def sum_array(array)
   array.reduce(:+)
 end
+
+def add_s(array)
+  array.collect do |nam|
+    if nam[1]
+      return
+    else
+      nam + "s"
+    end
+  end
+end
