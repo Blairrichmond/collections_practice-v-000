@@ -40,10 +40,5 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  nuarray =[]
-  array.each do |nam|
-    if nam[0] = "a"
-      nuarray << nam
-  end
-end
+  array.select {|nam| nam[0] == "a" || nam[0] == "A"}
 end
